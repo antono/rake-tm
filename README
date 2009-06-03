@@ -25,4 +25,10 @@ Total time spent: 12:32
 
 $ cat ~/.tm.log
 
+$ rake -T tm:
+rake tm:start  # Report start working on project
+rake tm:stop   # Report finish working on project
+rake tm:total  # Time report
+
+
 Copyright (c) 2009 Antono Vasiljev, released under the MIT license
