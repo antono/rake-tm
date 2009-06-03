@@ -1,0 +1,28 @@
+RakeTm
+======
+
+Simple time management taks for railway workers.
+
+Example
+=======
+
+$ rails another_startup && cd another_startup
+$ script/plugin install git://github.com/antono/rake-tm.git
+$ rake tm:start
+...
+$ autotest
+$ vi test/unit/mytest.rb
+...
+$ rake tm:stop
+$ rake tm:total
+
+--------------------------------------------------------------------------------
+another_startup
+Total time spent: 10:2
+--------------------------------------------------------------------------------
+personal_blog
+Total time spent: 10:2
+
+$ cat ~/.tm.log
+
+Copyright (c) 2009 Antono Vasiljev, released under the MIT license
